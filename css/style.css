@@ -1,6 +1,7 @@
 body {
-  background: orange;
-  background-size: 50vh 100vh;
+  background-image: url("../css/img/35868986593_3a47521c1b_o.jpg");
+  stroke-opacity: initial;
+  background-position: 200px;
   font-family: Arial;
   height: 100vh;
 }
@@ -13,10 +14,10 @@ body {
   list-style: none;
 }
 .menu {
-  background-color: #ffff;
+  background-color: #333333;
 }
 a {
-  color: darkgreen;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -27,7 +28,7 @@ a:hover {
 .site-subtitle,
 .site-title {
   text-align: center;
-  color: darkblue;
+  color: #ffffff;
 }
 
 .site-subtitle {
