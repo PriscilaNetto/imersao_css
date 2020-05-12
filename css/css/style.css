@@ -10,10 +10,23 @@ body {
   background-color: blue;
   font-family: Arial;
   height: 100vh;
+  font-size: 10px;
+}
+/* se a tela tiver minimo 400px irá carregar os estilos */
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+/* break point */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 header {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,12 +63,14 @@ a:hover {
   text-align: center;
   color: #ffffff;
 }
-
+.site-title {
+  font-size: 4em;
+}
 .site-subtitle {
   font-style: italic;
 }
 
 .img-portfolio {
-  height: 100px;
-  width: 120px;
+  height: 120px;
+  width: 180px;
 }
