@@ -1,5 +1,13 @@
+/*reset do css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url("../css/img/35868986593_3a47521c1b_o.jpg");
+  background-image: url("../img/35868986593_3a47521c1b_o.jpg");
   stroke-opacity: initial;
   background-position: 200px;
   font-family: Arial;
