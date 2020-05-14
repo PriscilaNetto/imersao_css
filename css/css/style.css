@@ -111,7 +111,7 @@ a:hover {
   width: 230px;
   object-fit: cover;
   object-position: left bottom;
-  border-radius: 95px;
+  border-radius: 30px;
 }
 @media (min-width: 1200px) {
   .img-projeto {
