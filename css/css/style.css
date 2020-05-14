@@ -7,8 +7,8 @@
 }
 
 body {
-  background-color: blue;
-  font-family: Arial;
+  background-color: rebeccapurple;
+  font-family: "Special Elite", cursive;
   height: 100vh;
   font-size: 10px;
 }
@@ -44,13 +44,13 @@ header {
   padding: 10px 20px;
 }
 .menu {
-  background-color: #333333;
+  background-color: cornflowerblue;
   position: fixed;
   width: 100vw;
   top: 0;
 }
 a {
-  color: #ffffff;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -61,16 +61,61 @@ a:hover {
 .site-subtitle,
 .site-title {
   text-align: center;
-  color: #ffffff;
+  color: violet;
 }
 .site-title {
   font-size: 4em;
+  font-family: "Black Ops One", cursive;
 }
 .site-subtitle {
   font-style: italic;
+  font-family: "Jost", sans-serif;
 }
 
-.img-portfolio {
-  height: 120px;
-  width: 180px;
+.projeto {
+  padding: 2em;
+  height: 100vh;
+}
+.projeto h2 {
+  font-family: "Jost", sans-serif;
+  color: whitesmoke;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+}
+
+.projeto .grid {
+  display: grid;
+  gap: 2em;
+}
+
+@media (min-width: 560px) {
+  .projeto .grid {
+    grid-template-columns: 230px 230px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 840px) {
+  .projeto .grid {
+    grid-template-columns: repeat(3, 260px);
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 8em - 48px);
+  }
+}
+.projeto figure {
+  text-align: center;
+}
+.img-projeto {
+  height: 160px;
+  width: 230px;
+  object-fit: cover;
+  object-position: left bottom;
+  border-radius: 95px;
+}
+@media (min-width: 1200px) {
+  .img-projeto {
+    height: auto;
+    width: 100%;
+  }
 }
