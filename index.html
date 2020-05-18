@@ -17,7 +17,7 @@
   <body>
     <header>
       <nav class="menu">
-        <ul>
+        <ul class="container">
           <li><a href="#sobre"> 💁 Sobre</a></li>
           <li><a href="#projetos"> 📖 Projetos</a></li>
           <li><a href="#contato">✉️ Contato</a></li>
@@ -28,10 +28,10 @@
         <h2 class="site-subtitle">Jr. Frontend developer (in progress)</h2>
       </div>
     </header>
-    <section class="sobre" id="sobre">
+    <section class="sobre container" id="sobre">
       <h2>Sobre</h2>
-      <figure>
-        <img src="img/img_sobre.jpg" alt="" />
+      <figure class="profile">
+        <img src="img/img_sobre.jpg" alt="Priscila Netto" />
       </figure>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat itaque,
@@ -46,30 +46,59 @@
         nostrum blanditiis deleniti.
       </p>
       <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis odit,
+        voluptas veniam esse recusandae maiores quasi aut itaque? Error
+        explicabo iusto facere placeat incidunt perferendis sapiente reiciendis
+        soluta quidem id.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint pariatur
+        assumenda optio totam magni mollitia eligendi adipisci tenetur magnam
+        unde, aspernatur provident porro iusto nihil tempore. Perspiciatis,
+        accusamus. Officiis, veniam!
+      </p>
+      <p>
         Este site foi construído durante a
         <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura.</a>
         Foi muito legal essa experiência!😉😍 🚀
       </p>
     </section>
-    <section class="projeto" id="projetos">
+    <section class="projeto container" id="projetos">
       <h2>Projetos</h2>
+
       <div class="grid">
-        <figure>
-          <img
-            class="img-projeto"
-            src="img/ManifestoSingular.jpg"
-            alt="Loja Manifesto Singular"
-          />
-          <figcaption>Loja Manifesto Singular</figcaption>
-        </figure>
-        <figure>
-          <img
-            class="img-projeto"
-            src="img/Otten_Bolos.jpg"
-            alt="Otten Bolos"
-          />
-          <figcaption>Otten Bolos</figcaption>
-        </figure>
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img
+                class="img-projeto"
+                src="img/ManifestoSingular.jpg"
+                alt="Loja Manifesto Singular"
+              />
+              <figcaption>Loja Manifesto Singular</figcaption>
+            </figure>
+            <div class="card-back">
+              Verso
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img
+                class="img-projeto"
+                src="img/Otten_Bolos.jpg"
+                alt="Otten Bolos"
+              />
+              <figcaption>Otten Bolos</figcaption>
+            </figure>
+            <div class="card-back">
+              Verso
+            </div>
+          </div>
+        </div>
+
         <figure>
           <img class="img-projeto" src="img/Urban_Arts.jpg" alt="Urban Arts" />
           <figcaption>Urban Arts</figcaption>
@@ -82,13 +111,15 @@
           />
           <figcaption>Voluntariado na Irlanda</figcaption>
         </figure>
+
         <figure>
           <img class="img-projeto" src="img/Photography.jpg" alt="Fotografia" />
           <figcaption>Fotografia</figcaption>
         </figure>
       </div>
     </section>
-    <section class="contato" id="contato">
+
+    <section class="contato container" id="contato">
       <h2>Contato</h2>
       <div class="grid icons">
         <a target="blank" href="https://github.com/PriscilaNetto"
